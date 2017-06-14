@@ -1,0 +1,6 @@
+<?php defined('SYSPATH') OR die('No direct script access.');
+
+class Blocks_Store_Page_Footer extends Blocks_Store_Abstract
+{ 
+     
+}

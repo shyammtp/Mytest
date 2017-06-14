@@ -1,0 +1,46 @@
+<?php defined('SYSPATH') OR die('No direct script access.');
+
+return array(
+
+	'alpha'         => ':field must contain only letters',
+	'alpha_dash'    => ':field must contain only numbers, letters and dashes',
+	'alpha_numeric' => ':field must contain only letters and numbers',
+	'color'         => ':field must be a color',
+	'credit_card'   => ':field must be a credit card number',
+	'date'          => ':field must be a date',
+	'decimal'       => ':field must be a decimal with :param2 places',
+	'digit'         => ':field must be a digit',
+	'email'         => ':field must be an email address',
+	'email_domain'  => ':field must contain a valid email domain',
+	'equals'        => ':field must equal :param2',
+	'exact_length'  => ':field must be exactly :param2 characters long',
+	'in_array'      => ':field must be one of the available options',
+	'ip'            => ':field must be an ip address',
+	'matches'       => ':field must be the same as :param3',
+	'min_length'    => ':field must be at least :param2 characters long',
+	'max_length'    => ':field must not exceed :param2 characters long',
+	'not_empty'     => ':field must not be empty',
+	'numeric'       => ':field must be numeric',
+	'phone'         => ':field must be a phone number',
+	'range'         => ':field must be within the range of :param2 to :param3',
+	'regex'         => ':field does not match the required format',
+	'url'           => ':field must be a url',
+	'language_not_empty' => ':field must be in english language',
+	'_validatesubject'=>__('Two or more entries for the subject on same time'),
+	'_validatecontacts'=>__('Two or more entries for the contacts on same time'),
+    'checkuniqueEmail' => ':field already exists',
+    '_checkattributevalidData' => __('Attribute already assigned to this product'),
+    '_checkAttributeExists' =>  __('This combinations of attribute already associated with this product'),
+    '_checkfromPriceLow' =>  __('To price should be greater than from price'),
+    '_checkSpecialPriceHigh' =>  __('Special price should be less than market price'),
+    '_validateWeight' =>  __('Weight must be integer and less then or equal 100'),
+    'geometry_data.not_empty'    => __('Please Draw on Map'),
+    'check_max_val' 	=> __('Offer price should be less than its actual total price.'),
+    'check_greater_than_zero' 	=> __('Negative values are not accepted.'),
+    'check_percentage_value' 	=> __('Offer percentage should be between (1-100)'),
+    'check_from_to_date' 	=> __('To date should be greater than the from date'),
+    'check_combo_count' 	=> __('Combo product should be more than one product.'),
+
+
+);
+
